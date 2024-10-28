@@ -1,0 +1,1804 @@
+
+/*police-nav*/
+
+
+.kanit-thin {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.kanit-extralight {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.kanit-light {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kanit-regular {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kanit-medium {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.kanit-semibold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.kanit-bold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.kanit-extrabold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.kanit-black {
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.kanit-thin-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.kanit-extralight-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.kanit-light-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.kanit-regular-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.kanit-medium-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.kanit-semibold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.kanit-bold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.kanit-extrabold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.kanit-black-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/*Police nosifer*/
+
+.nosifer-regular {
+  font-family: "Nosifer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Pour les écrans de 480px et moins */
+@media (min-width: 320px) and (max-width: 480px) {
+body {
+    background-color: rgb(0, 0, 0);
+    color: navy;
+}
+
+/*Barre de navigation*/
+
+.topnav {
+background-color: #810b0b;
+outline-style: solid;
+outline-width: 2px;
+overflow: hidden;       
+width: 100%;
+
+}
+
+*{
+margin : 0px;
+padding : 0px; 
+}
+.nav-header{
+display: flex;
+justify-content: center;
+list-style-type:none;
+} 
+
+.textnav {
+  font-family: "Kanit", sans-serif;
+  text-align: left;
+  font-size: 50%;
+
+}
+
+
+nav li{
+float:left;
+width: 15%;
+font-size: 100%;
+text-align:left;
+margin: 10px 18px;
+}
+.nav-header ::after{
+/*content "";*/
+display: table;
+clear:both;
+}
+nav{
+width: 100%;
+margin: 0%;
+}
+nav a{
+display: block;
+text-decoration: solid;
+color: rgb(0, 0, 0)
+}
+
+
+ /*Contact*/
+
+ .containercontact{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  outline-style: solid;
+  outline-offset: 15px;
+}
+.civilité {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.img-contact{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+
+.txtcontact{
+  font-family: "Kanit", sans-serif;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.icones-contact{
+  display: flex;
+  flex-flow: row column;
+  justify-content: center;
+  background-color:#000000;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.civilité{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+
+}
+
+.img-contact{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/*death-row*/
+
+.deathrow {
+display: flex;
+justify-content: center;
+width: 100%;
+color: red;
+background-color: #000000;
+font-family: "Nosifer", sans-serif;
+font-size: 100%;
+text-shadow: 2px 2px rgb(131, 24, 24); 
+}
+
+.logo{
+display: flex;
+justify-content: center;
+width: 100%;
+}
+/* mosaic*/
+
+.img-mosaic{
+background-color: rgb(0, 0, 0);
+width: 95%;
+outline-style: solid;
+outline-color: red;
+}
+
+.mosaic{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 5px;
+ width: 100%;
+}
+
+.titre-mosaic1{
+display: flex;
+justify-content: center;
+text-align: center;
+width: 100%;
+font-family:"Kanit", sans-serif;
+text-shadow: 2px 2px rgb(104, 12, 12);
+color: rgb(255, 0, 0);
+background-color:  rgb(126, 9, 9);
+}
+
+
+.txt-presentation1{
+display: flex;
+justify-content: center;
+text-align: center;
+width: 100%;
+font-size: 20px;
+font-family:"Kanit", sans-serif;
+text-shadow: 2px 2px rgb(104, 12, 12);
+color: rgb(255, 0, 0);
+background-color: rgb(126, 9, 9);
+}
+
+.titre-mosaic2{
+display: flex;
+justify-content: center;
+font-size: 10px;
+text-align: center;
+width: 100%;
+font-family:"Kanit", sans-serif;
+color: rgb(141, 14, 14);
+text-shadow: 1px 1px rgb(78, 8, 8);
+background-color: #000000;
+}
+
+.txt-presentation2{
+display: flex;
+justify-content: left;
+text-align: center;
+width: 100%;
+font-size: 10px;
+font-family:"Kanit", sans-serif;
+color: white;
+background-color: rgb(0, 0, 0);
+}
+
+.recommendation-album{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family:"Kanit",sans-serif ;
+  color: #ff0000;
+  padding: 5%;
+}
+
+
+ .img-lien{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(0, 0, 0);
+}
+
+.img-rap{
+width: 100%;
+background-color: rgb(0, 0, 0);
+outline-style: solid;
+outline-offset: 0px;
+outline-color: #ff0000;  
+}
+
+/*Pop-up*/
+
+button {
+  padding: 1% 1%;
+  margin: 10px;
+  background-color: red;
+  color: white;
+  outline-style: solid;
+  outline-color: white;
+  outline-width: 1px;
+}
+
+#pop:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop1:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop1::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop2:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop2::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop3:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop3::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop4:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop4::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop5:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop5::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop6:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop6::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+/*Realisations mosaic*/
+
+.img-rea{
+  width: 30%;
+  padding: 20px;
+  outline-style: solid;
+  outline-offset: -10px;
+  outline-color:#810b0b
+}
+
+.realisations{
+   display: flex;
+   flex-direction: column;
+   align-items: center;  
+   width: 100%;
+}    
+
+
+ .footer-nav{
+  display: flex;
+  align-items: flex-start;
+  background-color: #ffffff;
+  overflow: hidden;       
+  width: 100%;
+  
+}
+
+.textnav-footer {
+  font-family: "Kanit", sans-serif;
+  font-size: 10px;
+      
+}
+
+.nav-footer{
+  list-style-type:none;
+  display: flex;
+  flex-direction: row-reverse;
+} 
+
+nav li{
+  float:left;
+  width: 15%;
+  font-size: 100%;
+  text-align:right;
+  margin: 10px 18px;
+}
+.nav-footer::after{
+  /*content "";*/
+  display: table;
+  clear:both;
+}
+
+.icons-social-media{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  background-color: white;
+}
+}
+
+/* Pour les écrans entre 481px et 768px*/
+@media (min-width:481px) and (max-width: 768px) {
+  body {
+      background-color: rgb(0, 0, 0);
+      color: rgb(0, 128, 0);
+  }
+  
+  /*Barre de navigation*/
+  
+  .topnav {
+  background-color: #810b0b;
+  outline-style: solid;
+  outline-width: 2px;
+  overflow: hidden;       
+  width: 100%;
+  
+  }
+  
+  *{
+  margin : 0px;
+  padding : 0px; 
+  }
+  .nav-header{
+  display: flex;
+  justify-content: center;
+  list-style-type:none;
+  } 
+  
+  .textnav {
+    font-family: "Kanit", sans-serif;
+    text-align: left;
+    font-size: 65%;
+  
+  }
+  
+  
+  nav li{
+  float:left;
+  width: 15%;
+  font-size: 100%;
+  text-align:left;
+  margin: 10px 18px;
+  }
+  .nav-header ::after{
+  /*content "";*/
+  display: table;
+  clear:both;
+  }
+  nav{
+  width: 100%;
+  margin: 0%;
+  }
+  nav a{
+  display: block;
+  text-decoration: solid;
+  color: rgb(0, 0, 0)
+  }
+  
+ /*Contact*/
+
+ .containercontact{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  outline-style: solid;
+  outline-offset: 15px;
+}
+.civilité {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.img-contact{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+
+.txtcontact{
+  font-family: "Kanit", sans-serif;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.icones-contact{
+  display: flex;
+  flex-flow: row column;
+  justify-content: center;
+  background-color:#000000;
+  padding: 30px;
+}
+
+.civilité{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+
+}
+
+.img-contact{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+  /*death-row*/
+  
+  .deathrow {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: red;
+  background-color: #000000;
+  font-family: "Nosifer", sans-serif;
+  font-size: 150%;
+  text-shadow: 2px 2px rgb(131, 24, 24); 
+  }
+  
+  .logo{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  }
+  /* mosaic*/
+  
+  .img-mosaic{
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  outline-style: solid;
+  outline-offset: -2px;
+  outline-width: 2px;
+  outline-color: red;
+  }
+  
+  .mosaic{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   width: 100%;
+  }
+
+  .tablette{
+  display: flex;
+  justify-content: space-around;
+  background-color:rgb(126, 9, 9);
+  }
+
+  .txt-tablette{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .titre-mosaic1{
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  width: 100%;
+  font-family:"Kanit", sans-serif;
+  text-shadow: 2px 2px rgb(104, 12, 12);
+  color: rgb(255, 0, 0);
+  background-color:  rgb(126, 9, 9);
+  }
+  
+  
+  .txt-presentation1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-family:"Kanit", sans-serif;
+  text-shadow: 2px 2px rgb(104, 12, 12);
+  color: rgb(255, 0, 0);
+  background-color: rgb(126, 9, 9);
+  }
+  
+  .titre-mosaic2{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  text-align: right;
+  width: 100%;
+  font-family:"Kanit", sans-serif;
+  color: rgb(141, 14, 14);
+  text-shadow: 1px 1px rgb(78, 8, 8);
+  background-color: #000000;
+  }
+  
+  .txt-presentation2{
+  display: flex;
+  justify-content:flex-end;
+  text-align: right;
+  width: 100%;
+  font-size: 20px;
+  font-family:"Kanit", sans-serif;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  }
+  
+  .recommendation-album{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family:"Kanit",sans-serif ;
+    color: #ff0000;
+    padding: 5%;
+  }
+  
+  
+   .img-lien{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .img-rap{
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  outline-style: solid;
+  outline-offset: 0px;
+  outline-color: #ff0000;  
+  }
+    
+/*Pop-up*/
+
+button {
+  padding: 1% 1%;
+  margin: 10px;
+  background-color: red;
+  color: white;
+  outline-style: solid;
+  outline-color: white;
+  outline-width: 1px;
+}
+
+#pop:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop1:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop1::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop2:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop2::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop3:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop3::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop4:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop4::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop5:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop5::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop6:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop6::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+   .footer-nav{
+    display: flex;
+    align-items: flex-start;
+    background-color: #ffffff;
+    overflow: hidden;       
+    width: 100%;
+    
+  }
+
+/*Realisations mosaic*/
+
+.img-rea{
+  width: 30%;
+  padding: 20px;
+  outline-style: solid;
+  outline-offset: -10px;
+  outline-color:#810b0b
+}
+
+.realisations{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 100%;
+}    
+
+
+  .textnav-footer {
+    font-family: "Kanit", sans-serif;
+    font-size: 10px;
+        
+  }
+  
+  .nav-footer{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row-reverse;
+  } 
+  
+  nav li{
+    float:left;
+    width: 15%;
+    font-size: 100%;
+    text-align:right;
+    margin: 10px 18px;
+  }
+  .nav-footer::after{
+    /*content "";*/
+    display: table;
+    clear:both;
+  }
+  
+  .icons-social-media{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    background-color: white;
+  }
+  }
+
+  /* Pour les écrans entre 769px et 1280px*/
+@media (min-width:769px) and (max-width: 1280px) {
+  body {
+      background-color: rgb(0, 0, 0);
+      color: rgb(128, 0, 107);
+  }
+  
+  /*Barre de navigation*/
+  
+  .topnav {
+  background-color: #810b0b;
+  outline-style: solid;
+  outline-width: 2px;
+  overflow: hidden;       
+  width: 102%;
+  
+  }
+  
+  *{
+  margin : 0px;
+  padding : 0px; 
+  }
+  .nav-header{
+  display: flex;
+  justify-content: center;
+  list-style-type:none;
+  } 
+  
+  .textnav {
+    font-family: "Kanit", sans-serif;
+    text-align: left;
+    font-size: 75%;
+  
+  }
+  
+  
+  nav li{
+  float:left;
+  width: 15%;
+  font-size: 100%;
+  text-align:left;
+  margin: 10px 18px;
+  }
+  .nav-header ::after{
+  /*content "";*/
+  display: table;
+  clear:both;
+  }
+  nav{
+  width: 100%;
+  margin: 0%;
+  }
+  nav a{
+  display: block;
+  text-decoration: solid;
+  color: rgb(0, 0, 0)
+  }
+  
+ /*Contact*/
+
+ .containercontact{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  outline-style: solid;
+  outline-offset: 15px;
+}
+.civilité {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.img-contact{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+
+.txtcontact{
+  font-family: "Kanit", sans-serif;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.icones-contact{
+  display: flex;
+  flex-flow: row column;
+  justify-content: center;
+  background-color:#000000;
+  padding: 30px;
+}
+
+.civilité{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+
+}
+
+.img-contact{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.txtcontact{
+  font-family: "Kanit", sans-serif;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.icones-contact{
+  display: flex;
+  flex-flow: row column;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  background-color:#000000;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.civilité{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+
+}
+
+  /*death-row*/
+  
+  .deathrow {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: red;
+  background-color: #000000;
+  font-family: "Nosifer", sans-serif;
+  font-size: 150%;
+  text-shadow: 2px 2px rgb(131, 24, 24); 
+  }
+  
+  .logo{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  }
+  /* mosaic*/
+  
+  .img-mosaic{
+  background-color: rgb(0, 0, 0);
+  width: 95%;
+  outline-style: solid;
+  outline-color: red;
+  }
+  
+  .mosaic{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 5px;
+   width: 100%;
+  }
+  
+  .tablette{
+    display: flex;
+    justify-content: space-around;
+    width: 102%;
+    background-color:rgb(126, 9, 9);
+    }
+  
+    .txt-tablette{
+      display: flex;
+      flex-direction: column;
+    }
+
+  .titre-mosaic1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-family:"Kanit", sans-serif;
+  text-shadow: 2px 2px rgb(104, 12, 12);
+  color: rgb(255, 0, 0);
+  background-color:  rgb(126, 9, 9);
+  }
+  
+  
+  .txt-presentation1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-family:"Kanit", sans-serif;
+  text-shadow: 2px 2px rgb(104, 12, 12);
+  color: rgb(255, 0, 0);
+  background-color: rgb(126, 9, 9);
+  }
+  
+  .titre-mosaic2{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  font-family:"Kanit", sans-serif;
+  color: rgb(141, 14, 14);
+  text-shadow: 1px 1px rgb(78, 8, 8);
+  background-color: #000000;
+  }
+  
+  .txt-presentation2{
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-family:"Kanit", sans-serif;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  }
+  
+  .recommendation-album{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family:"Kanit",sans-serif ;
+    color: #ff0000;
+    padding: 5%;
+  }
+  
+  
+   .img-lien{
+    width:102%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .img-rap{
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  outline-style: solid;
+  outline-offset: 0px;
+  outline-color: #ff0000;  
+  }
+    
+/*Pop-up*/
+
+button {
+  padding: 1% 1%;
+  margin: 10px;
+  background-color: red;
+  color: white;
+  outline-style: solid;
+  outline-color: white;
+  outline-width: 1px;
+}
+
+#pop:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop1:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop1::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop2:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop2::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop3:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop3::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop4:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop4::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop5:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop5::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop6:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop6::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+/*Realisations mosaic*/
+
+.img-rea{
+  width: 20%;
+  padding: 20px;
+  outline-style: solid;
+  outline-offset: -10px;
+  outline-color:#810b0b
+}
+
+.realisations{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 100%;
+}    
+
+
+   .footer-nav{
+    display: flex;
+    align-items: flex-start;
+    background-color: #ffffff;
+    overflow: hidden;       
+    width: 102%;
+    
+  }
+  
+  .textnav-footer {
+    font-family: "Kanit", sans-serif;
+    font-size: 10px;
+        
+  }
+  
+  .nav-footer{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row-reverse;
+  } 
+  
+  nav li{
+    float:left;
+    width: 15%;
+    font-size: 100%;
+    text-align:right;
+    margin: 10px 18px;
+  }
+  .nav-footer::after{
+    /*content "";*/
+    display: table;
+    clear:both;
+  }
+  
+  .icons-social-media{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 102%;
+    background-color: white;
+  }
+  }
+
+  /* Pour les écrans entre 1281px et +*/
+@media (min-width:1281px) {
+  body {
+      background-color: rgb(0, 0, 0);
+      color: rgb(214, 218, 1);
+  }
+  
+  /*Barre de navigation*/
+  
+  .topnav {
+  background-color: #810b0b;
+  outline-style: solid;
+  outline-width: 2px;
+  overflow: hidden;       
+  width: 100%;
+  
+  }
+  
+  *{
+  margin : 0px;
+  padding : 0px; 
+  }
+  .nav-header{
+  display: flex;
+  justify-content: center;
+  list-style-type:none;
+  } 
+  
+  .textnav {
+    font-family: "Kanit", sans-serif;
+    text-align: left;
+    font-size: 100%;
+  
+  }
+  
+  
+  nav li{
+  float:left;
+  width: 15%;
+  font-size: 100%;
+  text-align:left;
+  margin: 10px 18px;
+  }
+  .nav-header ::after{
+  /*content "";*/
+  display: table;
+  clear:both;
+  }
+  nav{
+  width: 100%;
+  margin: 0%;
+  }
+  nav a{
+  display: block;
+  text-decoration: solid;
+  color: rgb(0, 0, 0)
+  }
+  
+  /*Contact*/
+
+/*Contact*/
+
+.containercontact{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  outline-style: solid;
+  outline-offset: 15px;
+}
+.civilité {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.img-contact{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+
+.txtcontact{
+  font-family: "Kanit", sans-serif;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.icones-contact{
+  display: flex;
+  flex-flow: row column;
+  justify-content: center;
+  background-color:#000000;
+  padding: 30px;
+}
+
+.civilité{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+
+}
+
+.img-contact{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+  /*death-row*/
+  
+  .deathrow {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: red;
+  background-color: #000000;
+  font-family: "Nosifer", sans-serif;
+  font-size: 150%;
+  text-shadow: 2px 2px rgb(131, 24, 24); 
+  }
+  
+  .logo{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  }
+  /* mosaic*/
+  
+  .img-mosaic{
+  background-color: rgb(0, 0, 0);
+  width: 95%;
+  outline-style: solid;
+  outline-color: red;
+  }
+  
+  .mosaic{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 5px;
+   width: 100%;
+  }
+  
+  .tablette{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(126, 9, 9);
+    }
+  
+    .txt-tablette{
+      display: flex;
+      flex-direction: column;
+    }
+
+  .titre-mosaic1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-family:"Kanit", sans-serif;
+  text-shadow: 2px 2px rgb(104, 12, 12);
+  color: rgb(255, 0, 0);
+  background-color:  rgb(126, 9, 9);
+  }
+  
+  
+  .txt-presentation1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-family:"Kanit", sans-serif;
+  text-shadow: 2px 2px rgb(104, 12, 12);
+  color: rgb(255, 0, 0);
+  background-color: rgb(126, 9, 9);
+  }
+  
+  .titre-mosaic2{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  font-family:"Kanit", sans-serif;
+  color: rgb(141, 14, 14);
+  text-shadow: 1px 1px rgb(78, 8, 8);
+  background-color: #000000;
+  }
+  
+  .txt-presentation2{
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-family:"Kanit", sans-serif;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  }
+  
+  .recommendation-album{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family:"Kanit",sans-serif ;
+    color:  #ff0000;
+    padding: 5%;
+  }
+  
+  
+   .img-lien{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .img-rap{
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  outline-style: solid;
+  outline-offset: 0px;
+  outline-color: #ff0000;  
+  }
+  
+/*Pop-up*/
+
+button {
+  padding: 1% 1%;
+  margin: 10px;
+  background-color: red;
+  color: white;
+  outline-style: solid;
+  outline-color: white;
+  outline-width: 1px;
+}
+
+#pop:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop1:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop1::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop2:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop2::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop3:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop3::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop4:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop4::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop5:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop5::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+#pop6:popover-open {
+  width: 50% ;
+  height: 50% ;
+  left: calc(50% - 150px) ;
+  top: calc(50% - 100px) ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: red;
+  color: white;
+  margin: 5px;
+}
+
+#pop6::backdrop {
+  background: rgba(10, 10, 30, 0.7) ;
+}
+
+/*Realisations mosaic*/
+
+.img-rea{
+  width: 10%;
+  padding: 20px;
+  outline-style: solid;
+  outline-offset: -10px;
+  outline-color:#810b0b
+}
+
+.realisations{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 100%;
+}    
+
+   .footer-nav{
+    display: flex;
+    align-items: flex-start;
+    background-color: #ffffff;
+    overflow: hidden;       
+    width: 100%;
+    
+  }
+  
+  .textnav-footer {
+    font-family: "Kanit", sans-serif;
+    font-size: 10px;
+        
+  }
+  
+  .nav-footer{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row-reverse;
+  } 
+  
+  nav li{
+    float:left;
+    width: 15%;
+    font-size: 100%;
+    text-align:right;
+    margin: 10px 18px;
+  }
+  .nav-footer::after{
+    /*content "";*/
+    display: table;
+    clear:both;
+  }
+  
+  .icons-social-media{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    background-color: white;
+  }
+  }

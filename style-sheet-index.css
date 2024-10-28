@@ -1,0 +1,925 @@
+
+/*police-nav*/
+
+.textnav {
+    font-family: "Kanit", sans-serif;
+    text-align: left;
+
+    
+}
+
+.kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .kanit-extralight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kanit-medium {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .kanit-semibold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .kanit-bold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .kanit-extrabold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .kanit-black {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .kanit-thin-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .kanit-extralight-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .kanit-light-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .kanit-regular-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .kanit-medium-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .kanit-semibold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .kanit-bold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .kanit-extrabold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .kanit-black-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+/*Police nosifer*/
+
+.nosifer-regular {
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+/* Pour les écrans de 480px et moins */
+@media (max-width: 480px) {
+  body {
+      background-color: rgb(0, 0, 0);
+      color: navy;
+  }
+
+  /*Barre de navigation*/
+
+.topnav {
+  background-color: #810b0b;
+  outline-style: solid;
+  outline-width: 2px;
+  overflow: hidden;       
+  width: 102%;
+  
+}
+
+*{
+  margin : 0px;
+  padding : 0px; 
+}
+.nav-header{
+display: flex;
+justify-content: center;
+list-style-type:none;
+} 
+
+nav li{
+  float:left;
+  width: 15%;
+  font-size: 100%;
+  text-align:left;
+  margin: 10px 18px;
+}
+.nav-header ::after{
+  /*content "";*/
+  display: table;
+  clear:both;
+}
+nav{
+  width: 100%;
+  margin: 0%;
+}
+nav a{
+  display: block;
+  text-decoration: solid;
+  color: rgb(0, 0, 0)
+}
+
+
+  /*death-row*/
+
+.deathrow {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: red;
+  background-color: #000000;
+  font-family: "Nosifer", sans-serif;
+  font-size: 10px;
+  text-shadow: 2px 2px rgb(131, 24, 24); 
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+/* mosaic*/
+
+.img-mosaic{
+  background-color: rgb(0, 0, 0);
+  outline-style: solid;
+  outline-color: red;
+  width: 300px;
+  height: 300px;
+}
+
+.mosaic{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 5px;
+   width: 100%;
+}
+
+.titre-mosaic1{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family:"Kanit", sans-serif;
+  text-shadow: 2px 2px rgb(104, 12, 12);
+  color: rgb(255, 0, 0);
+  background-color:  rgb(126, 9, 9);
+}
+
+
+.txt-presentation1{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 20px;
+  font-family:"Kanit", sans-serif;
+  text-shadow: 2px 2px rgb(104, 12, 12);
+  color: rgb(255, 0, 0);
+  background-color: rgb(126, 9, 9);
+}
+
+.titre-mosaic2{
+  display: flex;
+  font-size: 20px;
+  width: 100%;
+  justify-content: left;
+  font-family:"Kanit", sans-serif;
+  color: rgb(141, 14, 14);
+  text-shadow: 1px 1px rgb(78, 8, 8);
+  background-color: #000000;
+}
+
+.txt-presentation2{
+display: flex;
+justify-content: left;
+width: 100%;
+font-size: 20px;
+font-family:"Kanit", sans-serif;
+color: white;
+background-color: rgb(0, 0, 0);
+}
+
+
+   .img-lien{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.img-rap{
+  width: 85%;
+  background-color: rgb(0, 0, 0);
+  outline-style: solid;
+  outline-offset: 5%;
+  outline-color: #ff0000;  
+}
+
+.this-is{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 100%;
+ }
+
+ .spotify{
+  width: 90%;
+ }
+
+   .footer-nav{
+    display: flex;
+    align-items: flex-start;
+    background-color: #ffffff;
+    overflow: hidden;       
+    width: 102%;
+    
+ }
+
+ .textnav-footer {
+    font-family: "Kanit", sans-serif;
+    font-size: 10px;
+        
+}
+
+.nav-footer{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row-reverse;
+} 
+
+nav li{
+    float:left;
+    width: 15%;
+    font-size: 100%;
+    text-align:right;
+    margin: 10px 18px;
+}
+.nav-footer::after{
+    /*content "";*/
+    display: table;
+    clear:both;
+}
+
+.icons-social-media{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 102%;
+    background-color: white;
+}
+
+}
+
+/* Pour les écrans entre 481px et 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+      background-color: rgb(0, 0, 0);
+      color: darkgreen;
+  }
+
+  /*Barre de navigation*/
+
+  .topnav {
+    background-color: #810b0b;
+    outline-style: solid;
+    outline-width: 2px;
+    overflow: hidden;       
+    width: 102%;
+    
+  }
+  
+  *{
+    margin : 0px;
+    padding : 0px; 
+  }
+  .nav-header{
+  display: flex;
+  justify-content: center;
+  list-style-type:none;
+  } 
+  
+  nav li{
+    float:left;
+    width: 15%;
+    font-size: 100%;
+    text-align:left;
+    margin: 10px 18px;
+  }
+  .nav-header ::after{
+    /*content "";*/
+    display: table;
+    clear:both;
+  }
+  nav{
+    width: 100%;
+    margin: 0%;
+  }
+  nav a{
+    display: block;
+    text-decoration: solid;
+    color: rgb(0, 0, 0)
+  }
+  
+  
+    /*death-row*/
+  
+  .deathrow {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: red;
+    background-color: #000000;
+    font-family: "Nosifer", sans-serif;
+    font-size: 15px;
+    text-shadow: 2px 2px rgb(131, 24, 24); 
+  }
+  
+  .logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  /* mosaic*/
+  
+  .img-mosaic{
+    background-color: rgb(0, 0, 0);
+    outline-style: solid;
+    outline-color: red;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .mosaic{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     width: 100%;
+  }
+  
+  .titre-mosaic1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family:"Kanit", sans-serif;
+    text-shadow: 2px 2px rgb(104, 12, 12);
+    color: rgb(255, 0, 0);
+    background-color:  rgb(126, 9, 9);
+  }
+  
+  
+  .txt-presentation1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+    font-family:"Kanit", sans-serif;
+    text-shadow: 2px 2px rgb(104, 12, 12);
+    color: rgb(255, 0, 0);
+    background-color: rgb(126, 9, 9);
+  }
+  
+  .titre-mosaic2{
+    display: flex;
+    font-size: 20px;
+    width: 100%;
+    justify-content: left;
+    font-family:"Kanit", sans-serif;
+    color: rgb(141, 14, 14);
+    text-shadow: 1px 1px rgb(78, 8, 8);
+    background-color: #000000;
+  }
+  
+  .txt-presentation2{
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  font-size: 20px;
+  font-family:"Kanit", sans-serif;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  }
+  
+  
+     .img-lien{
+      width:100%;
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      background-color: rgb(0, 0, 0);
+  }
+  
+  .img-rap{
+    width: 85%;
+    background-color: rgb(0, 0, 0);
+    outline-style: solid;
+    outline-offset: 5%;
+    outline-color: #ff0000;  
+  }
+  
+  .this-is{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;
+   }
+
+   .spotify{
+    width: 90%;
+   }
+  
+     .footer-nav{
+      display: flex;
+      align-items: flex-start;
+      background-color: #ffffff;
+      overflow: hidden;       
+      width: 102%;
+      
+   }
+  
+   .textnav-footer {
+      font-family: "Kanit", sans-serif;
+      font-size: 10px;
+          
+  }
+  
+  .nav-footer{
+      list-style-type:none;
+      display: flex;
+      flex-direction: row-reverse;
+  } 
+  
+  nav li{
+      float:left;
+      width: 15%;
+      font-size: 100%;
+      text-align:right;
+      margin: 10px 18px;
+  }
+  .nav-footer::after{
+      /*content "";*/
+      display: table;
+      clear:both;
+  }
+  
+  .icons-social-media{
+      display: flex;
+      flex-direction: row-reverse;
+      width: 102%;
+      background-color: white;
+  }
+  }
+
+  /* Pour les écrans entre 769px et 1279px */
+@media (min-width: 769px) and (max-width: 1279px) {
+  body {
+      background-color: rgb(0, 0, 0);
+      color: rgb(201, 12, 144);
+  }
+
+  /*Barre de navigation*/
+
+  .topnav {
+    background-color: #810b0b;
+    outline-style: solid;
+    outline-width: 2px;
+    overflow: hidden;       
+    width: 102%;
+    
+  }
+  
+  *{
+    margin : 0px;
+    padding : 0px; 
+  }
+  .nav-header{
+  display: flex;
+  justify-content: center;
+  list-style-type:none;
+  } 
+  
+  nav li{
+    float:left;
+    width: 15%;
+    font-size: 100%;
+    text-align:left;
+    margin: 10px 18px;
+  }
+  .nav-header ::after{
+    /*content "";*/
+    display: table;
+    clear:both;
+  }
+  nav{
+    width: 100%;
+    margin: 0%;
+  }
+  nav a{
+    display: block;
+    text-decoration: solid;
+    color: rgb(0, 0, 0)
+  }
+  
+  
+    /*death-row*/
+  
+  .deathrow {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: red;
+    background-color: #000000;
+    font-family: "Nosifer", sans-serif;
+    font-size: 15px;
+    text-shadow: 2px 2px rgb(131, 24, 24); 
+  }
+  
+  .logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  /* mosaic*/
+  
+  .img-mosaic{
+    background-color: rgb(0, 0, 0);
+    outline-style: solid;
+    outline-color: red;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .mosaic{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     padding: 5px;
+     width: 100%;
+  }
+  
+  .titre-mosaic1{
+    display: flex;
+    justify-content: center;
+    width: 102%;
+    font-family:"Kanit", sans-serif;
+    text-shadow: 2px 2px rgb(104, 12, 12);
+    color: rgb(255, 0, 0);
+    background-color:  rgb(126, 9, 9);
+  }
+  
+  
+  .txt-presentation1{
+    display: flex;
+    justify-content: center;
+    width: 102%;
+    font-size: 20px;
+    font-family:"Kanit", sans-serif;
+    text-shadow: 2px 2px rgb(104, 12, 12);
+    color: rgb(255, 0, 0);
+    background-color: rgb(126, 9, 9);
+  }
+  
+  .titre-mosaic2{
+    display: flex;
+    font-size: 20px;
+    width: 100%;
+    justify-content: left;
+    font-family:"Kanit", sans-serif;
+    color: rgb(141, 14, 14);
+    text-shadow: 1px 1px rgb(78, 8, 8);
+    background-color: #000000;
+  }
+  
+  .txt-presentation2{
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  font-size: 20px;
+  font-family:"Kanit", sans-serif;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  }
+  
+  
+     .img-lien{
+      width:100%;
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      background-color: rgb(0, 0, 0);
+  }
+  
+  .img-rap{
+    width: 85%;
+    background-color: rgb(0, 0, 0);
+    outline-style: solid;
+    outline-offset: 5%;
+    outline-color: #ff0000;  
+  }
+  
+  .this-is{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;
+   }
+
+   .spotify{
+    width: 90%;
+   }
+  
+     .footer-nav{
+      display: flex;
+      align-items: flex-start;
+      background-color: #ffffff;
+      overflow: hidden;       
+      width: 102%;
+      
+   }
+  
+   .textnav-footer {
+      font-family: "Kanit", sans-serif;
+      font-size: 10px;
+          
+  }
+  
+  .nav-footer{
+      list-style-type:none;
+      display: flex;
+      flex-direction: row-reverse;
+  } 
+  
+  nav li{
+      float:left;
+      width: 15%;
+      font-size: 100%;
+      text-align:right;
+      margin: 10px 18px;
+  }
+  .nav-footer::after{
+      /*content "";*/
+      display: table;
+      clear:both;
+  }
+  
+  .icons-social-media{
+      display: flex;
+      flex-direction: row-reverse;
+      width: 102%;
+      background-color: white;
+  }
+  }
+
+  /* Pour les écrans entre 1280px */
+@media (min-width: 1280px) {
+  body {
+      background-color: rgb(0, 0, 0);
+      color: rgb(250, 50, 0);
+  }
+
+  /*Barre de navigation*/
+
+  .topnav {
+    background-color: #810b0b;
+    outline-style: solid;
+    outline-width: 2px;
+    overflow: hidden;       
+    width: 100%;
+    
+  }
+  
+  *{
+    margin : 0px;
+    padding : 0px; 
+  }
+  .nav-header{
+  display: flex;
+  justify-content: center;
+  list-style-type:none;
+  } 
+  
+  nav li{
+    float:left;
+    width: 15%;
+    font-size: 100%;
+    text-align:left;
+    margin: 10px 18px;
+  }
+  .nav-header ::after{
+    /*content "";*/
+    display: table;
+    clear:both;
+  }
+  nav{
+    width: 100%;
+    margin: 0%;
+  }
+  nav a{
+    display: block;
+    text-decoration: solid;
+    color: rgb(0, 0, 0)
+  }
+  
+  
+    /*death-row*/
+  
+  .deathrow {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: red;
+    background-color: #000000;
+    font-family: "Nosifer", sans-serif;
+    font-size: 15px;
+    text-shadow: 2px 2px rgb(131, 24, 24); 
+  }
+  
+  .logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  /* mosaic*/
+  
+  .img-mosaic{
+    background-color: rgb(0, 0, 0);
+    outline-style: solid;
+    outline-color: red;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .mosaic{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 100%;
+  }
+  
+  .titre-mosaic1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family:"Kanit", sans-serif;
+    text-shadow: 2px 2px rgb(104, 12, 12);
+    color: rgb(255, 0, 0);
+    background-color:  rgb(126, 9, 9);
+  }
+  
+  
+  .txt-presentation1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+    font-family:"Kanit", sans-serif;
+    text-shadow: 2px 2px rgb(104, 12, 12);
+    color: rgb(255, 0, 0);
+    background-color: rgb(126, 9, 9);
+  }
+  
+  .titre-mosaic2{
+    display: flex;
+    font-size: 20px;
+    width: 100%;
+    justify-content: left;
+    font-family:"Kanit", sans-serif;
+    color: rgb(141, 14, 14);
+    text-shadow: 1px 1px rgb(78, 8, 8);
+    background-color: #000000;
+  }
+  
+  .txt-presentation2{
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  font-size: 20px;
+  font-family:"Kanit", sans-serif;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  }
+  
+  
+     .img-lien{
+      width:100%;
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      background-color: rgb(0, 0, 0);
+  }
+  
+  .img-rap{
+    width: 85%;
+    background-color: rgb(0, 0, 0);
+    outline-style: solid;
+    outline-offset: 5%;
+    outline-color: #ff0000;  
+  }
+  
+     .this-is{
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      width: 100%;
+     }
+
+     .spotify{
+      width: 90%;
+     }
+  
+     .footer-nav{
+      display: flex;
+      align-items: flex-start;
+      background-color: #ffffff;
+      overflow: hidden;       
+      width: 100%;
+      
+   }
+  
+   .textnav-footer {
+      font-family: "Kanit", sans-serif;
+      font-size: 10px;
+          
+  }
+  
+  .nav-footer{
+      list-style-type:none;
+      display: flex;
+      flex-direction: row-reverse;
+  } 
+  
+  nav li{
+      float:left;
+      width: 15%;
+      font-size: 100%;
+      text-align:right;
+      margin: 10px 18px;
+  }
+  .nav-footer::after{
+      /*content "";*/
+      display: table;
+      clear:both;
+  }
+  
+  .icons-social-media{
+      display: flex;
+      flex-direction: row-reverse;
+      width: 100%;
+      background-color: white;
+  }
+  }
